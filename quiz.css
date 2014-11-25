@@ -1,0 +1,63 @@
+body {
+	background-color: #6666E0;
+}
+
+.main{
+	background-image: url('american_history.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: right; 
+	margin-top: 80px;
+	padding-left: 100px;
+	color: black;
+	min-width: 1200px;
+   min-height: 600px; 
+   height:auto !important; 
+   height: 500px; 
+	//background: white;
+}
+
+#space{
+display: inline-block;
+padding: 100px;
+float: left;
+background: #E6E6FF;
+border-radius: 10% 10px;
+width: 600px;
+margin-top: 50px;
+}
+
+#questionText{
+font-size: 20px;
+}
+
+#submit{
+margin-top: 40px;
+height: 30px;
+}
+#submit:hover{
+background-color: 	#C2D1F0;
+}
+
+#score{
+display: inline-block;
+height: 250px;
+width: 250px;
+margin: 150px 0 0 200px;
+text-align: center;
+font-size: 60px;
+width: 300px;
+//padding-top: 10	0px;
+background-color: 	#FFFFE6;
+}
+h4{
+font-size: 20px;
+}
+
+#answerList input[type="radio"]:hover + label {
+    padding-left: 2px;
+}
+
+#alertMessage{
+	color: red;
+}
